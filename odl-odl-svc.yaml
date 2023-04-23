@@ -6,9 +6,9 @@ metadata:
   name: odl-system-service
 spec:
   ports:
-  - port: 80 #change to 80
+  - port: 8181 #change to 80
     protocol: TCP
-    targetPort: 80 #change to 80
+    targetPort: 8181 #change to 80
     nodePort: 30111
   selector:
     app: odl-system
