@@ -16,7 +16,7 @@ spec:
         app: odl-system
     spec:
       containers:
-      - image: opendaylight/opendaylight
+      - image: opendaylight/opendaylight:latest
         name: odl-system
         imagePullPolicy: Always
         ports: 
