@@ -16,7 +16,7 @@ spec:
         app: odl-system
     spec:
       containers:
-      - image: opendaylight/opendaylight:17.2.0
+      - image: learningopendaylight/boron:latest
         name: odl-system
         imagePullPolicy: Always
         ports: 
